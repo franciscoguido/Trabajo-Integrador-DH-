@@ -141,6 +141,38 @@ div .textobanner {
     font-size: 14px;
 }
 
+h4{
+    font-weight: bold;
+    color: #C62A2A;
+    font-size: 32px;
+}
+
+h1 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+.tiempo {
+    color: #950000;
+}
+
+.subtitulo5 {
+    text-align: left;
+}
+
+.disfruta {
+    color: #95002D;
+}
+
+
+li{
+    text-align: justify;
+}
+
 
 @media (max-width: 768px) {
    
