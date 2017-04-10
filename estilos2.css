@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    border: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.logo {
+	margin: 0 auto;
+    position: absolute;
+    padding: 14px 16px;
+}
+
+.main-nav {
+    max-width: 100%;
+    height: 100px;
+    margin-top: 0;
+    background-color: #404040;
+    border: 0;
+}
+
+
+.main-nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    list-style: none;
+    width: 15.254237288%;
+    height: 100px;
+    float:right;
+    padding: 20px;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase
+} 
+
+.btn-group {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    width: 15.254237288%;
+    height: 100px;
+    float:right;
+    padding: 20px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+div .textobanner {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 0px;
+}
+
+.textobanner h1 {
+    text-align: center;
+    width: 100%;
+    color: #CC0000;
+    font-family:'Raleway', sans-serif;
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    }
+
+.textobanner h2 {
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-family:'Raleway', sans-serif;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    }
+
+.textobanner a {
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-family:'Raleway', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.paradeflotar {
+    clear: both;
+}
+
+
+
+.main-footer {
+    margin: 0 auto;
+    background-color: #404040;
+    width: 100%;
+    height: 100px;
+}
+
+.main-footer ul {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.main-footer li {
+    text-align: center;
+    list-style: none;
+    float: left;
+    padding: 20px;
+
+}
+
+.main-footer li a {
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.pago {
+    list-style: none;
+} 
+
+.beneficios {
+    list-style: none;
+}
+
+.donacion {
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+   
+}
+
+@media (min-width: 480px) {
+
+div .textobanner {
+    max-width: 100%;
+    position: absolute;
+    
+}
+   
+}
