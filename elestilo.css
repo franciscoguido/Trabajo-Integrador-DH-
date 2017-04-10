@@ -1,0 +1,33 @@
+h1 {
+	background-color:rgba(39, 48, 44, 0.5);
+	text-align: center;
+	color: black;
+	font-family: sans-serif;
+}
+
+body, section, h1, form, fieldset, input, textarea{
+   margin:0; 
+   padding:0; 
+   border:0; 
+   outline:none;
+   }
+
+html{
+   height:100%;
+   }
+header {
+	background: url(fondoheader.png);
+}
+
+.formulario-registracion{
+ width: 200px;
+ height: auto;
+ background-color:rgba(83, 48, 44, 0.5);
+ padding: 0 1%;
+ box-shadow: 5px 5px 0 #AAA;
+ border-radius: 5px;
+}
+
+body {
+	float: right;
+}
