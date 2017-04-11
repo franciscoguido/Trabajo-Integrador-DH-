@@ -60,8 +60,15 @@ body {
     padding: 20px;
 }
 
+.btn-group a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
 .banner img {
     width: 100%;
+    margin-bottom: -10px;
 }
 
 div .textobanner {
@@ -94,7 +101,6 @@ div .textobanner {
     }
 
 .textobanner a {
-    text-align: center;
     width: 100%;
     color: black;
     font-family:'Raleway', sans-serif;
@@ -141,36 +147,31 @@ div .textobanner {
     font-size: 14px;
 }
 
-h4{
-    font-weight: bold;
-    color: #C62A2A;
-    font-size: 32px;
+.encabezado {
+    width: 100%;
 }
 
-h1 {
-    font-weight: bold;
-    text-decoration: underline;
+.faqs {
+    background-color: #f2f2f2;
 }
 
-ol,ul {
-    list-style: none;
+.iniciodesesion {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.tiempo {
-    color: #950000;
+.ingresar {
+    width: 100%;
+    background-color: #f2f2f2;
+    height: 70%;
 }
 
-.subtitulo5 {
-    text-align: left;
-}
-
-.disfruta {
-    color: #95002D;
-}
-
-
-li{
-    text-align: justify;
+.registro {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -180,10 +181,5 @@ li{
 
 @media (min-width: 480px) {
 
-div .textobanner {
-    max-width: 100%;
-    position: absolute;
-    
-}
    
 }
