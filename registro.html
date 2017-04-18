@@ -3,6 +3,8 @@
 <head>
 	<title>Registro</title>
 	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" type="text/css" href="estiloregistro.css">
+	<link rel="icon" type="image/png" href="grafica/icono.png">
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -24,7 +26,7 @@
 	  			</div>
 			</div>
 
-			  <li><a href="contactp.html" >Contacto</a></li>
+			  <li><a href="contacto.html" >Contacto</a></li>
 			  <li><a href="beneficios.html">Beneficios</a></li>
 			  <li><a href="causas.html">Causas</a></li>
 			  <li><a href="como funciona.html">Como funciona</a></li>
@@ -32,65 +34,27 @@
 		</nav>
 	</header>
 
-	<section class="encabezado">
-		<img src="./grafica/banner-5.jpg" alt="banner">
-
-			<div class="textobanner" style="text-align: center;">
-				<h1>DONAS, AYUDAS</h1>
-				<h2>Y AL MISMO TIEMPO</h2>
-				<a>OBTENES BENEFICIOS EN INDUMENTARIA</a>
-			</div>
-	</section>
-
-
 	<section class="registro">
-			<div  class="formulario-registracion">
-			<form action="  " method="post">
-			<fieldset>
+			<div>
+			<form class="formulario-registracion" action="  " method="post">
+			
 
-				<h1>Registrate</h1>
+				<h2 id="registrate">Registrate</h2>
 
-				<br>
+				<label class="labelregistro" for="nombre"> Escribi tu nombre:</label> <br> <input class="inputregistro" type="text" name="nombre-apellido" required placeholder="Nombre y Apellido"> <br>
 
-				<label for="nombre"> Escribi tu nombre:</label>
-				<br>
-				<input type="text" name="nombre-apellido" required placeholder="Nombre y Apellido"> 
+				<label class="labelregistro" for="correo-electronico"> Correo electronico </label> <br> <input class="inputregistro" type="email" required name="Correo electronico" placeholder="mail@ejemplo.com"> <br>
 
-				<br><br>
+				<label class="labelregistro" for="password"> Contraseña </label> <br> <input class="inputregistro" type="password" label for="password" required name="Password" placeholder="******"> <br> 
+				
+				<label class="labelregistro" for="password"> Confirma tu contraseña </label> <br> <input class="inputregistro" type="password" label for="password" required name="Password" placeholder="******"> <br>
 
+				
 
-				<label for="correo-electronico"> Correo electronico </label>
-				<br>
-				<input type="email" required name="Correo electronico" placeholder="mail@ejemplo.com">
+				<label  class="labelregistro" for="date"> Fecha de Nacimiento </label> <br> <input class="inputregistro" type="date" name="cumpleanios" step="1" value=" " > <br> <br>
 
-				<br><br>
-
-				<label for="password"> Contraseña </label>
-				<br>
-				<input type="password" label for="password" required name="Password" placeholder="******">
-
-				<br><br>
-
-				<label for="password"> Confirma tu contraseña </label>
-				<br>
-				<input type="password" label for="password" required name="Password" placeholder="******">
-
-				<br><br>
-
-				<label for="date"> Fecha de Nacimiento </label>
-				<br>
-				<input type="date" name="cumpleanios" step="1" value="<?php echo date('Y-m-d')"?>
-
-				<br><br>
-
-				<input type="radio" name="genero" value="masc" checked> Masculino<br>
-				<input type="radio" name="genero" value="fem" checked> Femenino<br>
-				<input type="radio" name="genero" value="otro" checked> Otro<br>
-
-				<br><br>
-
-				<button class="enviar" type="submit"> Enviar </button>
-			</fieldset>
+				<button  type="submit" id="boton-registro"> Forma parte del Ropero Solidario </button>
+			
 
 		</form>
 	</div>
