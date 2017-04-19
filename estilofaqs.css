@@ -1,3 +1,5 @@
+
+
 .subtitulo4 {
 	color: #CC0033;
 	font-weight: bolder;
@@ -12,9 +14,9 @@
 }
 
 #faqs2 {
-	width: 80%;
+	width: 90%;
 	margin: auto;
-	background-color:rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.6);
 	padding: 10px 20px;
 	box-sizing: border-box;
 	border-radius: 2px;
@@ -27,24 +29,59 @@
 	font-weight: bold;
 }
 
-.disfruta {
-	color: pink;
-	font-weight: bold;
-	list-style: none;
-
-}
-
 .tiempo {
 	font-style: italic;
-	color: #990033;
-	font-size: 27px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .li-faqs {
 	color: #fff;
-	font-size: 13px;
+	font-size: 15px;
 	list-style: none;
 	text-align: justify;
 
+}
+
+.lidonar {
+	color: #fff;
+	font-size: 15px;
+	list-style: decimal;
+	text-align: justify;
+}
+
+
+@media (max-width : 668px) {
+
+    .faqs {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		background-color: white;
+		margin: 10px 0px;
+    }
+
+    #faqs2 {
+    	float: none;
+    	width: 100%;
+    }
+
+    .subtitulo5 {
+    	float: none;
+    	margin left: 0;
+    }
+
+    .subtitulo4 ul {
+    	float: none;
+    	padding-left: 0;
+    	margin-left: 0;
+    }
+
+    ul .donacion {
+    	float: none;
+    	padding-left: 0;
+    	margin-left: 0;
+    }
 }
 
