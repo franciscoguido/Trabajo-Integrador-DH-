@@ -1,0 +1,87 @@
+
+
+.subtitulo4 {
+	color: #CC0033;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.faqs {
+	background-image: url(grafica/perchas.png);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+#faqs2 {
+	width: 90%;
+	margin: auto;
+	background-color: rgba(0,0,0,0.6);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+.subtitulo5 {
+	color: #fff;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.tiempo {
+	font-style: italic;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.li-faqs {
+	color: #fff;
+	font-size: 15px;
+	list-style: none;
+	text-align: justify;
+
+}
+
+.lidonar {
+	color: #fff;
+	font-size: 15px;
+	list-style: decimal;
+	text-align: justify;
+}
+
+
+@media (max-width : 668px) {
+
+    .faqs {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		background-color: white;
+		margin: 10px 0px;
+    }
+
+    #faqs2 {
+    	float: none;
+    	width: 100%;
+    }
+
+    .subtitulo5 {
+    	float: none;
+    	margin left: 0;
+    }
+
+    .subtitulo4 ul {
+    	float: none;
+    	padding-left: 0;
+    	margin-left: 0;
+    }
+
+    ul .donacion {
+    	float: none;
+    	padding-left: 0;
+    	margin-left: 0;
+    }
+}
+
